@@ -5,7 +5,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import com.letcode.base.Testbase;
-import com.letcode.tests.TestingPageTest;
 
 public class LoginPage extends Testbase {
 	//page factor - Object Repository
