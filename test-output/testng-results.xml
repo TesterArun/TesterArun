@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30252" started-at="2021-06-13T16:35:00 IST" finished-at="2021-06-13T16:35:30 IST">
+  <suite name="Default suite" duration-ms="45744" started-at="2021-06-13T19:11:03 IST" finished-at="2021-06-13T19:11:48 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30252" started-at="2021-06-13T16:35:00 IST" finished-at="2021-06-13T16:35:30 IST">
-      <class name="com.letcode.tests.SelectpageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.letcode.tests.SelectpageTest@77be656f]" name="setup" is-config="true" duration-ms="28713" started-at="2021-06-13T16:35:00 IST" finished-at="2021-06-13T16:35:29 IST">
+    <test name="Default test" duration-ms="45744" started-at="2021-06-13T19:11:03 IST" finished-at="2021-06-13T19:11:48 IST">
+      <class name="com.letcode.tests.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.letcode.tests.LoginTest@221af3c0]" name="setup" is-config="true" duration-ms="21708" started-at="2021-06-13T19:11:03 IST" finished-at="2021-06-13T19:11:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="selectoperations()[pri:0, instance:com.letcode.tests.SelectpageTest@77be656f]" name="selectoperations" duration-ms="1307" started-at="2021-06-13T16:35:29 IST" finished-at="2021-06-13T16:35:30 IST">
+        <test-method status="PASS" signature="titlevalidation()[pri:1, instance:com.letcode.tests.LoginTest@221af3c0]" name="titlevalidation" duration-ms="1221" started-at="2021-06-13T19:11:24 IST" finished-at="2021-06-13T19:11:26 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectoperations -->
-      </class> <!-- com.letcode.tests.SelectpageTest -->
+        </test-method> <!-- titlevalidation -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.letcode.tests.LoginTest@221af3c0]" name="browserclose" is-config="true" duration-ms="2341" started-at="2021-06-13T19:11:26 IST" finished-at="2021-06-13T19:11:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.letcode.tests.LoginTest@221af3c0]" name="setup" is-config="true" duration-ms="11593" started-at="2021-06-13T19:11:28 IST" finished-at="2021-06-13T19:11:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginclicktest()[pri:2, instance:com.letcode.tests.LoginTest@221af3c0]" name="loginclicktest" duration-ms="6907" started-at="2021-06-13T19:11:40 IST" finished-at="2021-06-13T19:11:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginclicktest -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.letcode.tests.LoginTest@221af3c0]" name="browserclose" is-config="true" duration-ms="1826" started-at="2021-06-13T19:11:47 IST" finished-at="2021-06-13T19:11:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.letcode.tests.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

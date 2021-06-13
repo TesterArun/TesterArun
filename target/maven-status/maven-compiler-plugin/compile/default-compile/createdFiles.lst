@@ -1,7 +1,4 @@
-com\letcode\tests\LoginTest.class
-com\letcode\base\Testbase.class
 com\letcode\pages\SelectPage.class
-com\letcode\tests\SelectpageTest.class
+com\letcode\base\Testbase.class
 com\letcode\pages\TestingPage.class
 com\letcode\pages\LoginPage.class
-com\letcode\tests\TestingPageTest.class
