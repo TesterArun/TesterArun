@@ -1,6 +1,5 @@
 package com.letcode.tests;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -8,6 +7,8 @@ import com.letcode.base.Testbase;
 import com.letcode.pages.LoginPage;
 import com.letcode.pages.SelectPage;
 import com.letcode.pages.TestingPage;
+
+import customannotation.RetryCountIfFailed;
 
 public class SelectpageTest extends Testbase{
 	LoginPage loginpage;
@@ -23,7 +24,8 @@ public class SelectpageTest extends Testbase{
 	}
 	
 	@BeforeMethod
-	public void setup()
+	@RetryCountIfFailed(2)
+	public void setup() throws InterruptedException
 	{
 		initialization();
 		selectpage=new SelectPage();
@@ -35,6 +37,7 @@ public class SelectpageTest extends Testbase{
 	}
 
  @Test(priority=0)
+ 
  public void selectoperations()
  {
 	 selectpage.selectclick();
